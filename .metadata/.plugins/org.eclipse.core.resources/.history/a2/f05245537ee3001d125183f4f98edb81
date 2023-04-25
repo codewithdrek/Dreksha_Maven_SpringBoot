@@ -1,0 +1,38 @@
+package com.test.dreksha;
+
+public class Response {
+
+	
+	//1) GET API
+   //API:	http://localhost:8080/api/users/getAllUserByD
+	//RESPONSE: 	[{"id":10,"name":"Admin","email":"admin@gmail.com","created_at":"2023-04-25T16:06:10.001","updated_at":null},{"id":60,"name":"Siva","email":"siva@gmail.com","created_at":"2023-04-25T16:06:10.001","updated_at":null},{"id":61,"name":"Dreksha","email":"iamSaanvi@gmail.com","created_at":"2023-04-25T15:52:47.472","updated_at":"2023-04-25T16:07:43.937537"}]
+
+
+	//2 ) POST API
+	//http://localhost:8080/api/users/postByD
+	
+    //SEND BODY
+	/*
+	 * {
+	 * 
+	 * "name": "Dreksha", "email": "chaudharydreksha@gmail.com", "created_at":
+	 * "2023-04-25T15:52:47.472", "updated_at": null }
+	 */
+	
+	//RENPONSE CAN SE CHECKED BY HITTING GET API 
+	
+	
+	//3) PUT API
+	//http://localhost:8080/api/users/61
+	//BODY:
+	/*
+	 * {
+	 * 
+	 * "name": "Dreksha", "email": "iamSaanvi@gmail.com", "created_at":
+	 * "2023-04-25T15:52:47.472", "updated_at": null }
+	 */
+
+	//RESPONSE
+	YOU CAN SEE BY HITING 
+
+}
